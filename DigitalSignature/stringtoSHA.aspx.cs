@@ -15,7 +15,7 @@ namespace DigitalSignature
         {
             string str = "1122HGDGHHJWDrtyu485b36776f9b450893e0c17697d4f8902021-12-22T20:02:00+05:30";
             string strnew = sha256_hash(str);
-            Response.Write(strnew);
+            Response.Write(strnew + "Khalid");
         }
 
         public static String sha256_hash(String value)
